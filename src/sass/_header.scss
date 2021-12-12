@@ -24,9 +24,16 @@
         font-weight: 700;
         font-size: 18px;
         text-decoration: none;
-        :hover{
+        &:hover{
             color:#cac7c7;
         }
+
+    }
+
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
 
     }
 
